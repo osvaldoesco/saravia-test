@@ -1,6 +1,6 @@
 
 // convert this into commonjs
-import { format } from 'date-fns'
+import { format } from 'date-fns';
 
 
-console.log(format(new Date(), 'yyyy-MM-dd'))
+console.log(format(new Date(), 'dd-MM-yyyy'));
